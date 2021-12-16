@@ -200,6 +200,10 @@ footer {
     justify-content: space-between;
 }
 
+footer>p{
+    display: none;
+}
+
 
 .footer-bx-2, .footer-bx-3{
     width: 190px;
@@ -211,6 +215,10 @@ footer {
 .footer-bx-3{
     height: 70px;
     justify-content: space-between;
+}
+
+.footer>div:last-child{
+    display: none !important;
 }
 
 .sub-bx{
@@ -254,6 +262,14 @@ footer {
 
 /* TICKET VIEW PAGE */
 
+.con-heading-bx>p:first-child{
+    color: #343A40;
+}
+
+.con-heading-bx>p:last-child{
+    color: #212429;
+}
+
 .ti-content-container, .container {
     padding: 0 13rem;
     margin-top: 1rem;
@@ -264,7 +280,7 @@ footer {
     margin: 0 auto;
     width: 90vw;
     height: 1px;
-    background-color: var(--grey4);
+    background-color: #DDE2E5;
 }
 
 .ticket-id-sect{
@@ -347,7 +363,7 @@ footer {
 }
 
 .cs-title{
-    font-size: 20px;
+    font-size: 18px;
     color: var(--grey2);
 }
 
@@ -466,12 +482,22 @@ footer {
     margin-top: 4rem;
 }
 
+.sh-heading-bx h3{
+    font-size: 18px;
+}
+
 .td-heading-bx, .sh-heading-bx {
     display: flex;
     justify-content: space-between;
     padding-bottom: .5rem;
-    border-bottom: 1px solid var(--grey3);
+    border-bottom: 1px solid #DDE2E5;
 }
+
+.td-heading-bx h3, .sh-heading-bx h3{
+    color: #76808B;
+    font-size: 18px;
+}
+
 
 .td-heading-bx{
     align-items: center;
