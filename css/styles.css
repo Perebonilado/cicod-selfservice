@@ -159,7 +159,7 @@ nav .logo p {
     width: 300px;
     font-size: 14px;
     padding: .7rem 1rem;
-    border: 1px solid var(--grey4);
+    border: 1px solid var(--grey2);
     outline: none;
 }
 
@@ -301,11 +301,11 @@ footer {
     margin: 0 1rem;
     font-size: 14px;
     outline: none;
-    border: 1px solid var(--grey4);
+    border: 1px solid var(--grey2);
 }
 
 .tv-bx-2 input::placeholder {
-    color: var(--grey4);
+    color: var(--grey2);
 }
 
 .tv-bx-2 a {
